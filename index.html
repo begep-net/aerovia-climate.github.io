@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AEROVIA Climate Solutions — air conditioners, mini splits, heat pumps, HVAC equipment and accessories.">
+  <title>AEROVIA Climate Solutions</title>
+  <link rel="icon" href="assets/brand/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="utility"><div>☎ +1 (214) 555-0186</div><div>✉ support@aeroviaclimate.com</div><div>⌖ Dallas, Texas, United States</div><div class="utility-right"><span>Track Order</span><span>Help Center</span><span>Contact Us</span></div></div>
+  <header class="header">
+    <a class="brand" href="#top"><img src="assets/brand/logo.png" alt="AEROVIA Climate Solutions"></a>
+    <div class="search"><input id="searchInput" placeholder="Search for air conditioners, brands, or solutions..." aria-label="Search products"><button id="searchBtn">⌕</button></div>
+    <div class="header-actions"><button class="head-btn" data-toast="Account area is ready for integration">◯ <span>Account</span></button><button class="head-btn" id="wishlistBtn">♡ <span>Wishlist</span><b id="wishCount">0</b></button><button class="head-btn" id="cartBtn">🛒 <span>Cart</span><b id="cartCount">0</b></button></div>
+  </header>
+  <nav class="nav" aria-label="Primary"><a href="#top">Home</a><a href="#products">Air Conditioners</a><a href="#categories">Mini Split</a><a href="#products">Portable</a><a href="#products">Window AC</a><a href="#products">Commercial</a><a href="#products">Heat Pumps</a><a href="#services">HVAC</a><a href="#products">Accessories</a><a href="#support">Support</a><a class="offer" href="#products">Special Offers</a></nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><span class="eyebrow">COMFORT FOR A BETTER TOMORROW</span><h1>COOLER SPACES<br><strong>BRIGHTER DAYS</strong></h1><p>High-efficiency air conditioning solutions for homes, businesses and every space in between.</p><div class="hero-actions"><a class="btn primary" href="#products">Shop Now →</a><a class="btn ghost" href="#finder">Explore Solutions</a></div><div class="hero-points"><span>◉ Energy Efficient<small>Lower consumption</small></span><span>◈ Trusted Brands<small>Quality products</small></span><span>▣ Fast Shipping<small>Across the U.S.</small></span></div></div>
+      <div class="hero-art" role="img" aria-label="Modern room with wall-mounted air conditioner"></div>
+    </section>
+
+    <section class="section" id="categories"><div class="section-head"><div><span class="eyebrow blue">SHOP BY APPLICATION</span><h2>Find the right climate solution.</h2></div><a href="#products">View all categories →</a></div><div class="cat-grid" id="categoryGrid"></div></section>
+
+    <section class="trust"><div>❄ <b>Expert Support</b><small>We're here to help</small></div><div>🚚 <b>Free Shipping</b><small>On selected products</small></div><div>✓ <b>Secure Payment</b><small>100% safe checkout</small></div><div>▣ <b>Easy Returns</b><small>Hassle-free process</small></div><div>◉ <b>Dedicated Support</b><small>support@aeroviaclimate.com</small></div><div>☎ <b>Call Us</b><small>+1 (214) 555-0186</small></div></section>
+
+    <section class="section" id="products"><div class="section-head"><div><span class="eyebrow blue">FEATURED PRODUCTS</span><h2>Popular air conditioning solutions</h2><p class="sub">Carefully selected cooling and climate-control equipment for every space.</p></div><select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: Low to high</option><option value="high">Price: High to low</option></select></div><div class="toolbar"><div id="resultCount"></div><div class="filters" id="filters"></div></div><div class="product-grid" id="productGrid"></div></section>
+
+    <section class="finder" id="finder"><div><span class="eyebrow">AEROVIA CLIMATE FINDER</span><h2>Not sure what you need?</h2><p>Tell us what kind of space you are cooling and we’ll point you toward the right equipment category.</p></div><div class="finder-form"><select id="space"><option>Bedroom / small room</option><option>Living room / apartment</option><option>Office</option><option>Large commercial space</option><option>Whole-home system</option></select><select id="system"><option>Mini Split</option><option>Portable AC</option><option>Window AC</option><option>Heat Pump</option><option>Central / Commercial</option></select><button class="btn primary" id="findBtn">Find solutions →</button><div id="finderResult"></div></div></section>
+
+    <section class="section services" id="services"><div class="section-head"><div><span class="eyebrow blue">CLIMATE SERVICES</span><h2>More than equipment.</h2><p class="sub">AEROVIA is built around the full climate-control journey.</p></div></div><div class="service-grid"><article><span>01</span><h3>Product Guidance</h3><p>Compare equipment types, capacity, applications and important specifications before you buy.</p></article><article><span>02</span><h3>HVAC Support</h3><p>Get help understanding installation requirements, accessories and replacement components.</p></article><article><span>03</span><h3>Commercial Solutions</h3><p>Explore larger-capacity cooling and professional-grade climate-control equipment.</p></article><article><span>04</span><h3>Maintenance Ready</h3><p>Build a future maintenance workflow around filters, controls, parts and service scheduling.</p></article></div></section>
+
+    <section class="support" id="support"><div class="support-copy"><span class="eyebrow">NEED HELP?</span><h2>Talk to AEROVIA support.</h2><p>Questions about an air conditioner, compatibility, accessories or your order? Send us a message.</p><div class="contact-cards"><div><b>Email</b><span>support@aeroviaclimate.com</span></div><div><b>Phone</b><span>+1 (214) 555-0186</span></div><div><b>Location</b><span>Dallas, Texas, United States</span></div></div></div><form id="supportForm"><label>Name<input required id="supportName"></label><label>Email<input required type="email" id="supportEmail"></label><label>How can we help?<textarea required id="supportMessage" rows="5"></textarea></label><button class="btn primary" type="submit">Send support request →</button><p id="formStatus"></p></form></section>
+  </main>
+
+  <aside class="drawer" id="cartDrawer"><div class="drawer-head"><h3>Your cart</h3><button id="closeCart">×</button></div><div id="cartItems"></div><div class="drawer-total"><span>Total</span><strong id="cartTotal">$0.00</strong></div><button class="btn primary full" id="checkoutBtn">Continue to checkout</button></aside><div class="backdrop" id="backdrop"></div><div class="toast" id="toast"></div>
+
+  <footer><div class="footer-main"><div><img src="assets/brand/logo.png" alt="AEROVIA"><p>Modern air conditioning and climate-control solutions for homes, offices and businesses.</p></div><div><h4>Shop</h4><a href="#products">Air Conditioners</a><a href="#products">Mini Split</a><a href="#products">Portable</a><a href="#products">Heat Pumps</a></div><div><h4>Services</h4><a href="#finder">Climate Finder</a><a href="#services">HVAC Support</a><a href="#support">Support</a><a href="#support">Contact Us</a></div><div><h4>Support</h4><a href="mailto:support@aeroviaclimate.com">support@aeroviaclimate.com</a><a href="tel:+12145550186">+1 (214) 555-0186</a><span>Dallas, Texas, United States</span></div></div><div class="copyright">© 2026 AEROVIA Climate Solutions. All rights reserved.</div></footer>
+  <script src="js/script.js"></script>
+</body></html>
