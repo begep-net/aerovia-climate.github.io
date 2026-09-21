@@ -1,14 +1,10 @@
-# Changelog
+# AEROVIA Climate Solutions — Changelog
 
-## V2 — Product Image Cleanup
+## V3 — Logo layout fix
 
-- Removed embedded website labels, badges, prices, and interface text from product photography where present.
-- Reframed product images so the actual article is the visual focus.
-- Standardized product-image canvases for consistent ecommerce cards.
-- Kept wishlist hearts and all product controls as HTML/UI elements outside the images.
-- Kept all product and category assets local to the project.
-- Preserved the existing storefront functionality, support contact, cart, wishlist, search, filters, and responsive layout.
-
-## V1 — Initial Storefront
-
-- Initial AEROVIA Climate Solutions ecommerce storefront.
+- Fixed the AEROVIA logo appearing oversized and vertically stretched in the header.
+- Cropped transparent padding from the logo asset.
+- Changed the header logo sizing to use a controlled height with automatic width.
+- Preserved the original logo artwork; no new logo image was generated.
+- Adjusted the footer logo sizing for consistent presentation.
+- Kept all V2 product-image cleanup and ecommerce functionality intact.
